@@ -25,7 +25,7 @@ function FirstPage() {
         <Link
           style={{ textDecoration: 'none', color: '#5f9ea0' }}
           to={{
-            pathname: '/Game',
+            pathname: playerOne !== '' && playerTwo !== '' ? '/Game' : '',
             state: {
               one: playerOne,
               two: playerTwo,

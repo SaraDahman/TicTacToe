@@ -6,14 +6,12 @@ import Game from './components/game';
 
 function App() {
   return (
-    <div className='App'>
     <Router>
       <Switch>
         <Route exact path='/' component={FirstPage} />
         <Route exact path='/Game' component={Game} />
       </Switch>
     </Router>
-    </div>
   );
 }
 

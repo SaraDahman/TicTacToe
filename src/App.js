@@ -7,10 +7,12 @@ import Game from './components/game';
 function App() {
   return (
     <Router>
+      <div className='App'>
       <Switch>
         <Route exact path='/' component={FirstPage} />
         <Route exact path='/Game' component={Game} />
       </Switch>
+      </div>
     </Router>
   );
 }
